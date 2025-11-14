@@ -1,4 +1,4 @@
-import { Bookmark, Mail, Twitter, Github } from 'lucide-react'
+import { Mail, Twitter, Github } from 'lucide-react'
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -10,9 +10,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary-600 rounded-xl flex items-center justify-center">
-                <Bookmark className="w-6 h-6 text-white" strokeWidth={2.5} />
-              </div>
+              <img 
+                src="/branding/icon-talk-clip@2x.webp" 
+                alt="TalkClip" 
+                className="w-10 h-10 rounded-xl"
+              />
               <span className="text-2xl font-bold text-white">TalkClip</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">

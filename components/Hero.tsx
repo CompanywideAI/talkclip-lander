@@ -1,4 +1,4 @@
-import { Bookmark, Smartphone, Sparkles } from 'lucide-react'
+import { Smartphone, Sparkles } from 'lucide-react'
 
 export const Hero = () => {
   return (
@@ -15,8 +15,12 @@ export const Hero = () => {
           {/* App Icon */}
           <div className="flex justify-center mb-8">
             <div className="relative">
-              <div className="w-24 h-24 bg-primary-600 rounded-3xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-300">
-                <Bookmark className="w-12 h-12 text-white" strokeWidth={2.5} />
+              <div className="w-24 h-24 rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="/branding/icon-talk-clip@2x.webp" 
+                  alt="TalkClip App Icon" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center shadow-lg">
                 <Sparkles className="w-5 h-5 text-white" />
@@ -72,7 +76,11 @@ export const Hero = () => {
             <div className="relative bg-gray-900 rounded-3xl shadow-2xl overflow-hidden aspect-[9/16] max-w-sm mx-auto border-8 border-gray-800">
               <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                 <div className="text-center p-8">
-                  <Bookmark className="w-20 h-20 text-primary-500 mx-auto mb-4" />
+                  <img 
+                    src="/branding/icon-talk-clip@2x.webp" 
+                    alt="TalkClip App" 
+                    className="w-32 h-32 mx-auto mb-4 rounded-3xl"
+                  />
                   <p className="text-gray-400 text-sm">App Screenshot Coming Soon</p>
                 </div>
               </div>

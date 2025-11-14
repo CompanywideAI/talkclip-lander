@@ -6,16 +6,22 @@ export const metadata: Metadata = {
   description: 'Save, organize, and rediscover your favorite online content. Never lose track of that interesting TikTok, YouTube video, or article again!',
   keywords: ['content management', 'bookmark manager', 'video saver', 'TikTok saver', 'YouTube organizer', 'iOS app'],
   authors: [{ name: 'TalkClip' }],
+  icons: {
+    icon: '/branding/icon-talk-clip@2x.png',
+    apple: '/branding/icon-talk-clip@2x.png',
+  },
   openGraph: {
     title: 'TalkClip - Your Personal Content Library',
     description: 'Save, organize, and rediscover your favorite online content',
     type: 'website',
     url: 'https://talkclip.com',
+    images: ['/branding/icon-talk-clip@2x.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'TalkClip - Your Personal Content Library',
     description: 'Save, organize, and rediscover your favorite online content',
+    images: ['/branding/icon-talk-clip@2x.png'],
   },
 }
 

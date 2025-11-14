@@ -22,9 +22,9 @@ export const Hero = () => {
                   className="w-full h-full"
                 />
               </div>
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center shadow-lg">
+              {/* <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center shadow-lg">
                 <Sparkles className="w-5 h-5 text-white" />
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -37,7 +37,7 @@ export const Hero = () => {
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Save, organize, and rediscover your favorite online content. 
+            Save, organize, and rediscover your favorite online content in one place. 
             Never lose track of that interesting TikTok, YouTube video, or article again!
           </p>
 
@@ -73,7 +73,7 @@ export const Hero = () => {
         <div className="mt-20 max-w-4xl mx-auto">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-accent-600 rounded-3xl blur-3xl opacity-20" />
-            <div className="relative rounded-3xl shadow-2xl overflow-hidden max-w-sm mx-auto">
+            <div className="relative overflow-hidden max-w-sm mx-auto">
               <img 
                 src="/screenshots/gfx-app-main-screen.webp" 
                 alt="TalkClip App - Main Screen showing content library with thumbnails" 

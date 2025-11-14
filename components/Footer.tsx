@@ -18,7 +18,7 @@ export const Footer = () => {
               <span className="text-2xl font-bold text-white">TalkClip</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Your personal content library. Save, organize, and rediscover your favorite online content.
+              Your personal content library. Save, organize, and rediscover your favorite online content in one place.
             </p>
             <div className="flex gap-4">
               <a 

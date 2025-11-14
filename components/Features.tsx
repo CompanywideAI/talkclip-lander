@@ -150,7 +150,7 @@ export const Features = () => {
                         className="group p-6 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl transition-all duration-300 border border-transparent hover:border-gray-200"
                       >
                         <div className={`inline-flex p-2 rounded-lg bg-gradient-to-br ${feature.color} bg-opacity-10 mb-3 group-hover:scale-110 transition-transform`}>
-                          <ItemIcon className="w-5 h-5 text-gray-700" />
+                          <ItemIcon className="w-5 h-5 text-gray-200" />
                         </div>
                         <h4 className="font-semibold text-gray-900 mb-2">{item.title}</h4>
                         <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>

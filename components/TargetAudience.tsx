@@ -56,7 +56,7 @@ export const TargetAudience = () => {
             Who Is <span className="text-gradient">TalkClip</span> For?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Whether you're learning, creating, or exploring, TalkClip helps you stay organized
+            Whether you&apos;re learning, creating, or exploring, TalkClip helps you stay organized
           </p>
         </div>
 

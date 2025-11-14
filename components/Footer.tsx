@@ -63,7 +63,7 @@ export const Footer = () => {
                 <a href="#use-cases" className="hover:text-white transition-colors">Use Cases</a>
               </li>
               <li>
-                <a href="#for-who" className="hover:text-white transition-colors">Who It's For</a>
+                <a href="#for-who" className="hover:text-white transition-colors">Who It&apos;s For</a>
               </li>
             </ul>
           </div>

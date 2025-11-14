@@ -13,7 +13,7 @@ export const Footer = () => {
               <img 
                 src="/branding/icon-talk-clip@2x.webp" 
                 alt="TalkClip" 
-                className="w-10 h-10 rounded-xl"
+                className="w-10 h-10"
               />
               <span className="text-2xl font-bold text-white">TalkClip</span>
             </div>
@@ -91,10 +91,10 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © {currentYear} TalkClip. All rights reserved.
+            &copy; {currentYear} Companywide AI, LLC. All Rights Reserved.
           </p>
           <p className="text-sm text-gray-400">
-            Made with ❤️ by CompanywideAI
+            Show us some ❤️ on <a href="https://www.linkedin.com/company/companywideai" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
           </p>
         </div>
       </div>

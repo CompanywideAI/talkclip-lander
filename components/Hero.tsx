@@ -15,11 +15,11 @@ export const Hero = () => {
           {/* App Icon */}
           <div className="flex justify-center mb-8">
             <div className="relative">
-              <div className="w-24 h-24 rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+              <div className="w-24 h-24 transform hover:scale-105 transition-transform duration-300">
                 <img 
                   src="/branding/icon-talk-clip@2x.webp" 
                   alt="TalkClip App Icon" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full"
                 />
               </div>
               <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent-500 rounded-full flex items-center justify-center shadow-lg">
@@ -69,21 +69,16 @@ export const Hero = () => {
           </div>
         </div>
 
-        {/* App Preview - Placeholder */}
+        {/* App Preview */}
         <div className="mt-20 max-w-4xl mx-auto">
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-accent-600 rounded-3xl blur-3xl opacity-20" />
-            <div className="relative bg-gray-900 rounded-3xl shadow-2xl overflow-hidden aspect-[9/16] max-w-sm mx-auto border-8 border-gray-800">
-              <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <img 
-                    src="/branding/icon-talk-clip@2x.webp" 
-                    alt="TalkClip App" 
-                    className="w-32 h-32 mx-auto mb-4 rounded-3xl"
-                  />
-                  <p className="text-gray-400 text-sm">App Screenshot Coming Soon</p>
-                </div>
-              </div>
+            <div className="relative rounded-3xl shadow-2xl overflow-hidden max-w-sm mx-auto">
+              <img 
+                src="/screenshots/gfx-app-main-screen.webp" 
+                alt="TalkClip App - Main Screen showing content library with thumbnails" 
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>

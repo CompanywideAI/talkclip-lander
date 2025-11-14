@@ -91,7 +91,7 @@ Deploy directly from your GitHub repository - both platforms auto-detect Next.js
 
 ## 📄 License
 
-© 2024 TalkClip. All rights reserved.
+© 2025 CompanyWide AI. All rights reserved.
 
 ---
 

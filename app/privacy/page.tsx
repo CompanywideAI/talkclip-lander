@@ -342,11 +342,7 @@ const PrivacyPage = () => {
               </ul>
             </div>
           </div>
-          <div className="mt-6 text-center">
-            <p className="text-xl font-semibold">
-              🎉 TalkClip collects NO data - a huge privacy selling point!
-            </p>
-          </div>
+
         </div>
 
       </main>

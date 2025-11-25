@@ -295,7 +295,7 @@ const AboutPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://apps.apple.com/app/talkclip" 
+              href="https://apps.apple.com/us/app/talkclip/id6755642147" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-indigo-600 font-semibold rounded-xl hover:bg-gray-100 transition-colors"

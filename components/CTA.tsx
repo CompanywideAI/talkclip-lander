@@ -30,13 +30,18 @@ export const CTA = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <button className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-primary-600 bg-white hover:bg-gray-50 transition-all duration-200 shadow-2xl hover:shadow-3xl transform hover:-translate-y-0.5 group">
+          <a 
+            href="https://apps.apple.com/us/app/talkclip/id6755642147"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-primary-600 bg-white hover:bg-gray-50 transition-all duration-200 shadow-2xl hover:shadow-3xl transform hover:-translate-y-0.5 group"
+          >
             <Smartphone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
             Download for iOS
-          </button>
+          </a>
           <button className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-white border-2 border-white border-opacity-40 hover:border-opacity-100 hover:bg-white hover:bg-opacity-10 transition-all duration-200 backdrop-blur-sm">
             <Download className="w-5 h-5 mr-2" />
-            Coming Soon
+            Android – Coming Soon
           </button>
         </div>
 

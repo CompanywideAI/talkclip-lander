@@ -43,10 +43,15 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="btn-primary group">
+            <a 
+              href="https://apps.apple.com/us/app/talkclip/id6755642147"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary group inline-flex items-center"
+            >
               <Smartphone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
               Download on App Store
-            </button>
+            </a>
             <button className="btn-secondary">
               Watch Demo
             </button>

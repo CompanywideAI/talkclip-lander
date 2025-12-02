@@ -1,4 +1,5 @@
 import { Smartphone, Sparkles } from 'lucide-react'
+import { WatchDemoModal } from './WatchDemoModal'
 
 export const Hero = () => {
   return (
@@ -52,9 +53,7 @@ export const Hero = () => {
               <Smartphone className="w-5 h-5 mr-2 group-hover:animate-pulse" />
               Download on App Store
             </a>
-            <button className="btn-secondary">
-              Watch Demo
-            </button>
+            <WatchDemoModal />
           </div>
 
           {/* Quick Stats */}

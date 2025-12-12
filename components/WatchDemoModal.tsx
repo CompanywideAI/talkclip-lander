@@ -34,7 +34,7 @@ export const WatchDemoModal = () => {
         onClick={() => setIsOpen(true)}
       >
         <Play className="w-5 h-5 mr-2" />
-        Watch Introduction
+        Watch Tutorial
       </button>
 
       {isOpen && (
@@ -53,8 +53,8 @@ export const WatchDemoModal = () => {
             </button>
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/pzd-HHFYpD4?autoplay=1&rel=0&modestbranding=1&loop=1&playlist=pzd-HHFYpD4"
-              title="TalkClip Introduction"
+              src="https://www.youtube.com/embed/DFLrxDlnaao?autoplay=1&rel=0&modestbranding=1&loop=1&playlist=DFLrxDlnaao"
+              title="TalkClip Tutorial"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
